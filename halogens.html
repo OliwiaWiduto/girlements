@@ -5,6 +5,24 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://use.typekit.net/mxq8xdr.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="57x57" href="icon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon.ico/favicon-16x16.png">
+<link rel="manifest" href="icon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <style>
 body, html {
     height: 100%;
@@ -20,7 +38,7 @@ body, html {
     <div class="topnav" id="topnav">
       <a href="index.html" class="effect-shine" ><b>GIRLEMENTS</b></a>
     <div class="menuright">
-      <a href="noblegases.html" class="effect-shine" style="color:#5D4F7F;">Noble Gases</a>
+      <a href="noblegases.html" style="color:#5D4F7F;">Noble Gases</a>
       <a href="halogens.html" class="active" style="color:#C69DC5;">Halogens</span></a>
       <a href="nonmetals.html" class="effect-shine" style="color:#57E573;">Non Metals</a>
       <a href="transitionmetals.html" class="effect-shine" style="color:#C9902E;">Transition Metals</a>
@@ -98,15 +116,15 @@ body, html {
 <div class="table">
   <table>
   <tr>
-    <td>icon</td>
+    <td><img style="width: 3.5em;" src="images/svg/eye.svg" alt="Sleeve Dog"></td>
     <td><p>fluorine is very pale yellow, chlorine is yellow-green, and bromine is red-brown. Iodine crystals are shiny purple</p></td>
   </tr>
   <tr>
-    <td>icon</td>
+    <td><img style="width: 3.5em;" src="images/svg/hand.svg" alt="Sleeve Dog"></td>
     <td><p>gases (Fluorine and Chlorine), liquids (Bromine), solids (Iodine and Astatine)</p></td>
   </tr>
   <tr>
-    <td>icon</td>
+    <td><img style="width: 3.5em;" src="images/svg/reaction.svg" alt="Sleeve Dog"></td>
     <td><p>combined with metals, they make salts called metal halides</p></td>
   </tr>
 </table>
@@ -120,8 +138,24 @@ body, html {
     </p>
 </div>
 
+<div class="prevnext">
+  <a href="noblegases.html" class="effect-shine">PREVIOUS</a>
+  <a href="nonmetals.html" class="effect-shine">NEXT</a>
 </div>
 
 </div>
+
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("topnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 </body>

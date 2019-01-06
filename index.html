@@ -7,6 +7,23 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://use.typekit.net/mxq8xdr.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="57x57" href="icon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon.ico/favicon-16x16.png">
+<link rel="manifest" href="icon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <style>
 body, html {
     height: 100%;
@@ -15,6 +32,25 @@ body, html {
 </style>
 </head>
 <body>
+
+  <div id="slideout">
+    <img src="images/readme.png" alt="Read Me">
+<div class="learn" id="slideout_inner">
+  <div class="blackbox">
+  <div><h1 style="color:#EE434C; font-size: 60px; margin-bottom:10px;"><strong>HOW DOES IT ALL WORK?</strong></h1></div>
+  <div><h5>Take the tour below to understand what each Girlement represents!</h5></div>
+
+  <div class="learn-container">
+    <div id="one"><h4><strong>PARTILCES</strong></h4><img border="0" alt="Actinides" src="images/particles.jpg"><p>Particles are the smallest thing on earth. They have either: a positive (+), -negative (-), OR neutral (0) charge.</p><button class="next" type="button" onclick="myFunction1()">next></button></div>
+    <div id="two"><h4><strong>ATOMS</strong></h4><img border="0" alt="Actinides" src="images/atoms.jpg"><p>Particles make up an atoms. The center is called a nucleus, made of positive (+) & neutral(0) particles. Negative (-) particles float around in orbits.</p><button class="next" type="button" onclick="myFunction2()">next>></button></div>
+    <div id="three"><h4><strong>PERIODIC TABLE</strong></h4><img border="0" alt="Actinides" src="images/pt.jpg"><p>The periodic table is a chart which contains all known Atoms. One way of sorting through it, are Valence groups. <br></br><span style="color:#EF444D;">Discover them by <b>hovering</b> & <b>clicking</b> around the Girlements on the home page!</span></p></div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+
   <div class="elementpage">
     <div class="topnav" id="topnav">
       <a href="index.html" class="active" ><b>GIRLEMENTS</b></a>
@@ -88,6 +124,14 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+}
+
+function myFunction1() {
+  document.getElementById("two").style.opacity = "1";
+}
+
+function myFunction2() {
+  document.getElementById("three").style.opacity = "1";
 }
 </script>
 
